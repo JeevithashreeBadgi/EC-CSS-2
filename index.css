@@ -1,0 +1,91 @@
+.child1{
+    height:100px;
+    width:100px;
+    border:2px solid red;
+     display:inline; 
+}
+.child2{
+    width:100px;
+    height:100px;
+    border : 2px solid blue;
+    display : block;
+}
+.child3{
+    width:100px;
+    height : 100px;
+    border : 2px solid orange;
+    display : inline-block;
+}
+.box1{
+    width:100px;
+    height : 100px;
+    background-color: aqua;
+    display: none;
+}
+.box2{
+    width:100px;
+    height : 100px;
+    background-color: rgb(9, 63, 63);
+    visibility: hidden;
+}
+.flex-item1{
+    width:150px;
+    height:150px;
+    border:2px solid greenyellow;
+}
+.flex-container{
+    display: flex;
+    flex-direction :row;
+}
+.flex-container2{
+    display: flex;
+    flex-direction :column;
+}
+.flex-container3{
+    display: flex;
+    flex-direction :row-reverse;
+}
+.flex-container4{
+    display: flex;
+    flex-direction :column-reverse;
+}
+.flex-container5{
+    display: flex;
+    flex-direction :row;
+    justify-content: space-around;
+}
+.flex-container6{
+    display: flex;
+    flex-direction :row;
+    justify-content: space-between;
+}
+.flex-container7{
+    display: flex;
+    flex-direction :row;
+    justify-content: space-evenly;
+}
+.flex-container8{
+    display: flex;
+    flex-direction :row;
+    align-items: flex-start;
+}
+.flex-container9{
+    display: flex;
+    flex-direction :row;
+   align-items: flex-end;
+}
+.flex-container10{
+    display: flex;
+    flex-direction :row;
+   align-items: center;
+}
+.flex-container11{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-container12{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
